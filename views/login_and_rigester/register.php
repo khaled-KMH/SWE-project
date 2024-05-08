@@ -2,7 +2,7 @@
 	require_once("../../models/database.php");
 	session_start();
 
-	$db=new database;
+	$db=new  database;
 
 	$db->openConnection();
 	
